@@ -1,3 +1,22 @@
+/* CSS Comments are a little weird ngl */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+    background-color:rgb(178, 189, 201);
+}
 p {
-    color:yellow;
+    color:rgb(38, 35, 35) ;
+}
+blockquote {
+    font-weight: bold;
+    font-size: 20pt;
+}
+.blue_background {
+    background-color:rgb(51, 255, 255);
+}
+.blue_text {
+    color:rgb(65, 37, 206);
+}
+.old_font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
