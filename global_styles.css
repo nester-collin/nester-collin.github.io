@@ -1,7 +1,8 @@
 /* CSS Comments are a little weird */
 body {
     font-family: 'Courier New', Courier, monospace;
-    padding: 20pt;
+    padding: 30px;
+    padding-bottom: 40px;
     background-color:rgb(178, 189, 201);
 }
 h1, footer {
