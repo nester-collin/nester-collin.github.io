@@ -4,7 +4,7 @@ body {
     padding: 20pt;
     background-color:rgb(178, 189, 201);
 }
-h1 {
+h1, footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a {
