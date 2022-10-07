@@ -1,0 +1,14 @@
+.blue_background {
+    background-color:rgb(51, 255, 255);
+}
+.blue_text {
+    color:rgb(65, 37, 206);
+}
+.old_font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.other_person {
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(64, 118, 64);
+    padding-left:5%;
+}

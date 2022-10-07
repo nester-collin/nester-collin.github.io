@@ -1,0 +1,18 @@
+header > ul > a {
+    font-size: 14pt;
+    padding: 20px;
+    padding-left: 12px;
+    color: black;
+    text-align: justify;
+}
+header > ul > a:hover {
+    color: #b2bdc9;
+    background-color: black;
+}
+header {
+    padding: 4px;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
