@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="global_styles.css">
+    <link rel="stylesheet" href="header_footer_styles.css">
+</head>
+<body>
+<header>
+    <ul>
+        <a href="index.html">Home</a>
+        <a href="about_me.html">About Me</a>
+        <a href="my_projects.html">My Projects</a>
+        <a href="form.html">Form</a>
+    </ul>
+</header>
+<h1 id="title">Form</h1>
+<p>Name:</p>
+<textarea onkeyup="printForm()" style="width:300px; height:20px;"></textarea>
+</br>
+<p>Message: </p>
+</br>
+<textarea onkeyup="printForm()"></textarea>
+<p>Enter text in these textboxes above, and it will show up below.</p>
+<p id="randomParagraph">Name: Message: </p>
+<footer>
+    <ul>
+        <p>Thanks for visiting!</p>
+    </ul>
+</footer>
+<script>
+    function printForm() {
+        let formText;
+        formTextOne = document.getElementsByTagName("textarea")[0].value;
+        let formTextTwo;
+        formTextTwo = document.getElementsByTagName("textarea")[1].value;
+        document.getElementById("randomParagraph").innerHTML = "Name: " + formTextOne + " Information: " + formTextTwo;
+    }
+</script>
+</body>
+</html>
