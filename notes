@@ -1,0 +1,23 @@
+AWT = abstract window toolkit, heavyweight, difficult to use, used for UIs
+swing = easier to use, used to make UIs
+container = canvas to put jcomponents in
+import javax.swing.*;
+JFrame jFrame = new JFrame("Title")
+jFrame.setLayout(new FlowLayout())
+jFrame.setSize(w, h)
+jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+JButton jButton = new JButton("text on button")
+jFrame.add(jButton)
+jLabel = new JLabel("text on label") -- this puts text on the screen
+jFrame.setVisible(true)
+
+
+SwingUtilities.invokeLater(new Runnable() {
+            public void run(){
+                new SwingIntro();
+            }
+        });
+        This prevents threading issues(?), put it in the main method
+
+interface: a class with ONLY abstract methods
+public class Dog extends Canine implements Pet
