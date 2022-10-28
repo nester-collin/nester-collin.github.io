@@ -19,5 +19,23 @@ SwingUtilities.invokeLater(new Runnable() {
         });
         This prevents threading issues(?), put it in the main method
 
+downButton.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e){
+                System.out.println("down clicked");
+            }
+        });
+
+OR
+
+implements ActionListener adds an abstract class
+put DownButton.addActionListener(this); in place of above, add
+if (e.getActionCommand().equals("Up")){
+    System.out.println("Up Clicked");
+}
+to the abstract method
+
 interface: a class with ONLY abstract methods
 public class Dog extends Canine implements Pet
+you can implement as many classes as you want
+
